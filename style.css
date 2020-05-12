@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
 	font-family: 'PT Sans',sans-serif;
-	background-color: #373c56;
+	background-color: whitesmoke;
 }
 #menu{
 	width: 35px;
@@ -14,29 +14,28 @@ body{
 .bar{
 	height: 5px;
 	width: 100%;
-	background-color: #b81568;
+	background-color: slategray;
 	display: block;
 	border-radius: 5px;
 	transition: 0.3s ease;
 }
 .banner-home {
-	background-image:image(desktop,banner.jpg);
-	height: 300px;
+	background-image:url("Images/White with Blue Buildings Silhouette Real Estate Professional General Linkedin Banner.jpg");
+	height: 150px;
 	background-size: cover;
 	background-position: center;
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .bannerhome h1 {
 	font-size: 3em;
 	margin-top: 0;
-	color: ;
+	color: white;
 }
 .image-one {
 	padding:0 20px;
 }
-.footer-home{
-	
-}
+
 #menu {
 	position: fixed;
 }
@@ -107,16 +106,29 @@ body{
 	flex:1;
 }
 .art-one-home {
-	display: flex;
-	padding: 0;
+	background-color: pink;
+	padding: 30px 10px 10px 0px;
+	float:right;
+
+	
 }
 .art-one-home-img {
-	flex:1;
-	height: 50vh;
+	height: 300px;
+	width: 300px;
+	background-image:url("Images/train.jpg");
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: right;
+	float: left;
+
 }
 .art-text {
-	flex:1;
+	text-align: center;
 }
+
 
 h1 {
 	font-family: Verdana;
@@ -124,7 +136,7 @@ h1 {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	color: #acd1b2;
+	color: navy;
 }
 h2 {
 	font-family: Verdana;
@@ -132,7 +144,7 @@ h2 {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	color: #acd1b2;
+	color: white;
 }
 #name {
 	position: relative;
@@ -171,12 +183,9 @@ div{
 }
 h1:hover
 {
-	background-color:#102372;
+	background-color:darkgray;
 }
-h2:hover
-{
-	background-color:#102372;
-}
+
 div{
 	border-radius:3px dotted blue;
 }
@@ -204,7 +213,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: darkgray;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -212,13 +221,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 /* Style the container/contact section */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 100px;
+  background-color: pink;
   padding: 10px;
 }
 
@@ -248,78 +257,11 @@ input[type=submit]:hover {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
@@ -337,4 +279,82 @@ input[type=submit]:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.instagram {
+  background: #bb0000;
+  color: white;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container2{
+text-align:center;
+position: relative;
+}
+
+.slides {
+  display:none;
+}
+
+#pic1{
+  display:inline;
 }
