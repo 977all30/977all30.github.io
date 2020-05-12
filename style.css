@@ -20,7 +20,7 @@ body{
 	transition: 0.3s ease;
 }
 .banner-home {
-	background-image:url("Images/White with Blue Buildings Silhouette Real Estate Professional General Linkedin Banner.jpg");
+	background-image:url("White with Blue Buildings Silhouette Real Estate Professional General Linkedin Banner.jpg");
 	height: 150px;
 	background-size: cover;
 	background-position: center;
@@ -115,7 +115,7 @@ body{
 .art-one-home-img {
 	height: 300px;
 	width: 300px;
-	background-image:url("Images/train.jpg");
+	background-image:url("train.jpg");
 	margin: auto;
 	background-size: cover;
 	background-position: center;
